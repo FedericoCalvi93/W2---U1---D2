@@ -6,7 +6,7 @@ const primoNumero= 10
 const secondNumero= 20
 
 if(20 > 10)
-{console.log("20 è il più grande dei due numeri interi", secondNumero)}
+{console.log("20 è il più grande dei due numeri interi", secondNumero > primoNumero)}
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
@@ -14,7 +14,7 @@ if(20 > 10)
 
 const z = 13
 if(z !== 5)
-{console.log, ("Not equal", z)}
+{console.log("Not equal", z !==5)}
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: cerca l'operatore modulo su un motore di ricerca)
@@ -22,7 +22,7 @@ if(z !== 5)
 
 const numero1 = 10 
 if(numero1/5) 
-{console.log("divisibile per 5")}
+{console.log("divisibile per 5", numero1/5)}
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
@@ -31,7 +31,7 @@ if(numero1/5)
 const x=8
 const y=16
 if(x === 8 || y - 8 ) 
-{console.log("mostra risultato")}
+{console.log("mostra risultato", x===8, y-8 )}
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
@@ -65,11 +65,11 @@ const b=20
 const c=30
 
 if (c) {
-  console.log("Primo");
-} else if (b) {
-  console.log("Secondo");
-} else {a
-  console.log("Terzo");
+  console.log("Primo",c)
+} if (b) {
+  console.log("Secondo",b)
+} if (a) {
+  console.log("Terzo",a)
 }
 
 
@@ -77,7 +77,9 @@ if (c) {
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const p=12
+if (p === 12){console.log(typeof 12);}
+
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
